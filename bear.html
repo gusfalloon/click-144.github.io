@@ -11,6 +11,7 @@
     <link href='http://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/lightbox.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
@@ -33,20 +34,28 @@
     <section>
       <div>
         <h3>Rawr</h3>
-          <p>BEARS!</p>
+          <p>Bears!</p>
       </div>
-      <ul id="bearlist">
+      <ul id="screenshotList">
         <li>
-          <img src="https://pbs.twimg.com/profile_images/2586664217/o78k5fogx5g3hdy6peai.jpeg" title="BEAR"/>
+          <a href="https://pbs.twimg.com/profile_images/2586664217/o78k5fogx5g3hdy6peai.jpeg" data-lightbox="image-1" data-title="My Caption">
+            <img src="https://pbs.twimg.com/profile_images/2586664217/o78k5fogx5g3hdy6peai.jpeg" title="BEAR"/>
+          </a>
         </li>
         <li>
-          <img src="http://static.comicvine.com/uploads/original/11113/111138961/3937994-bear(1).jpg" title="MORE BEAR"/>
+          <a href="http://static.comicvine.com/uploads/original/11113/111138961/3937994-bear(1).jpg" data-lightbox="image-2" data-title="My Caption">
+            <img src="http://static.comicvine.com/uploads/original/11113/111138961/3937994-bear(1).jpg" title="MORE BEAR"/>
+          </a>
         </li>
         <li>
-          <img src="http://assets.nydailynews.com/polopoly_fs/1.1726511!/img/httpImage/image.jpg_gen/derivatives/gallery_1200/baby-polar-bears-munich.jpg" title="BEAR AGAIN"/>
+          <a href="http://assets.nydailynews.com/polopoly_fs/1.1726511!/img/httpImage/image.jpg_gen/derivatives/gallery_1200/baby-polar-bears-munich.jpg" data-lightbox="image-3" data-title="My Caption">
+            <img src="http://assets.nydailynews.com/polopoly_fs/1.1726511!/img/httpImage/image.jpg_gen/derivatives/gallery_1200/baby-polar-bears-munich.jpg" title="BEAR AGAIN"/>
+          </a>
         </li>
         <li>
-          <img src="http://www.pageresource.com/wallpapers/wallpaper/grizzly-bears-high-definition_2041870.jpg" title="HAPPY BEAR"/>
+          <a href="http://www.pageresource.com/wallpapers/wallpaper/grizzly-bears-high-definition_2041870.jpg" data-lightbox="image-4" data-title="My Caption">
+            <img src="http://www.pageresource.com/wallpapers/wallpaper/grizzly-bears-high-definition_2041870.jpg" title="HAPPY BEAR"/>
+          </a>
         </li>
         <li>
           <img src="http://www.lydony.com/wp-content/uploads/2014/02/Polar-Bear.jpg" title="LITTLE BEAR"/>
@@ -61,5 +70,6 @@
       <a href="http://www.facebook.com/daniel.a.soutar"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
       <p>&copy; 2015 Daniel Soutar.</p>
     </footer>
+    <script src="dist/js/lightbox-plus-jquery.min.js"></script>
   </body>
 </html>
