@@ -67,7 +67,8 @@ nav ul {
 }
 
 nav li {
-  display: inline-block;  
+  display: inline-block;
+  margin: 0 0 10px 0;
 }
 
 nav a {
